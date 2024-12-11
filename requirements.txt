@@ -1,0 +1,4 @@
+streamlit==1.19.0 
+streamlit-navigation-bar
+plotly
+pandas
