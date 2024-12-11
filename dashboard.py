@@ -30,6 +30,7 @@ checkbox_labels = ["EV", "Solar", "Wind", "Heat Pumps"]
 selected_options = [label for label in checkbox_labels if st.sidebar.checkbox(label, value=(label == "EV"))]
 st.sidebar.markdown("---")
 
+st.header("Dashboard")
 # Load CSV data
 def load_csv_data(filepath):
     try:
